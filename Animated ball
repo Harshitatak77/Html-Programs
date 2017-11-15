@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>colorful ball</title>
+<style>
+div {
+background-color: red;
+width: 100px;
+height: 100px;
+border-radius: 90px;
+position: relative;
+animation-name: ball-glide;
+animation-duration: 8s;
+}
+@keyframes ball-glide {
+0% {background-color:red; left:0px; top:0px;}
+25% {background-color:gold; left:500px; top:0px;}
+50% {background-color:rebeccapurple; left:500px; top:500px;}
+75% {background-color:mediumblue; left:0px; top:500px;}
+100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
